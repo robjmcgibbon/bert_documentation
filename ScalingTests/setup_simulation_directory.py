@@ -18,17 +18,19 @@ def create_directory(name, copylist, linklist, force=True):
         _, lfile = os.path.split(lfilepath)
         os.symlink(lfilepath, f"{wdir}/{lfile}")
 
+
 def parse_file_list(filename):
     files = []
     with open(filename, "r") as handle:
         for line in handle.readlines():
-            commpos = line.find('#')
+            commpos = line.find("#")
             if commpos != -1:
-              line = line[:commpos]
+                line = line[:commpos]
             line = line.strip()
             if line != "":
-              files.append(os.path.abspath(line))
+                files.append(os.path.abspath(line))
     return files
+
 
 if __name__ == "__main__":
 
