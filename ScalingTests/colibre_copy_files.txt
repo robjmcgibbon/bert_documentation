@@ -1,0 +1,22 @@
+# this is an example list of files that need to be copied for a COLIBRE
+# simulation; adapt for your application
+
+# additional parameter files
+# can also be soft-linked, if you are sure they will not change
+output_list_highz2.txt
+output_list.yml
+
+# the swift executable
+# can either be linked or copied
+# linking has the advantage that it is easier to find the source code that
+# was used to create it
+# copying has the advantage that the executable is still the same if you
+# decide to recompile the original file later
+swift-build/swift
+
+# velociraptor files
+vrconfig_3dfof_subhalos_SO_hydro.cfg
+VELOCIraptor-STF/build/stf
+
+# additional scripts (optional)
+pre_process_snapshot.py

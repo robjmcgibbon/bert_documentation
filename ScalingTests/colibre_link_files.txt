@@ -1,0 +1,37 @@
+# this is an example list of files that need to be soft-linked for a COLIBRE
+# simulation; adapt for your application
+
+# initial condition file
+# usually too large to copy for every single simulation
+COLIBRE_ICs_L0025N0188.hdf5
+
+# sub-grid model files
+chimes-data
+cooling_files_new_v1_chimes_upd
+dust_yields
+Early_stellar_feedback.hdf5
+perturbations_L0025N0188.hdf5
+photometry
+UVB_dust1_CR1_G1_shield1_v1.hdf5
+X_Ray_tables.hdf5
+yieldtables
+
+# additional parameter files
+# probably better to copy these, unless you are sure they will not change
+output_list_highz2.txt
+output_list.yml
+
+# the swift executable
+# can either be linked or copied
+# linking has the advantage that it is easier to find the source code that
+# was used to create it
+# copying has the advantage that the executable is still the same if you
+# decide to recompile the original file later
+swift-build/swift
+
+# velociraptor files
+vrconfig_3dfof_subhalos_SO_hydro.cfg
+VELOCIraptor-STF/build/stf
+
+# additional scripts (optional)
+pre_process_snapshot.py
