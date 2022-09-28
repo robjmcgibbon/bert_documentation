@@ -14,7 +14,8 @@ Files:
 contains a separate folder for each run, with each of these folders containing
 one or more snapshots. The script generates a plot for the last snapshot in
 each folder and saves it as an image with a filename based on the name of the
-folder.
+folder. Note that `runs` can also be a soft link to a folder, e.g. the folder
+where someone else stores all their run output.
 
 `make_webpage.py` simply detects all image files in the current working
 directory and adds them to a web page. The web page is generated in the folder
