@@ -1,6 +1,19 @@
 import unyt
 from make_zoom_maps import create_maps
 
+"""
+make_large_maps.py
+
+Generate maps for the 2.8 Gpc FLAMINGO box at 4 different zoom levels,
+centred on the most massive cluster.
+
+This script assumes that the z=0 snapshot is soft-linked in the same folder
+as L2800N5040.hdf5.
+
+The position of the most massive cluster is hard-coded.
+"""
+
+# position of the most massive cluster in the box
 centre = unyt.unyt_array(
     [908.108029106926, 654.1990705783709, 2222.372714962825], units="Mpc"
 )
