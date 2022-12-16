@@ -277,14 +277,15 @@ def plot_data_on_axis(
         actual_extent = whole_extent
 
     # get the box size from the extent
+    whole_boxsize = whole_extent[1] - whole_extent[0]
     boxsize = actual_extent[1] - actual_extent[0]
 
     # make a copy of the data to avoid overwriting the original
     # then apply the shift, if one has been requested
     datacopy = data.copy()
     if shift is not None:
-        xshift = int(shift[0] / boxsize * data.shape[0])
-        yshift = int(shift[1] / boxsize * data.shape[1])
+        xshift = int(shift[0] / whole_boxsize * data.shape[0])
+        yshift = int(shift[1] / whole_boxsize * data.shape[1])
         datacopy = np.roll(datacopy, (xshift, yshift), axis=(0, 1))
 
     # plot the map
@@ -296,10 +297,12 @@ def plot_data_on_axis(
         cmap=cmap,
     )
 
+    # set the axis limits
+    ax.set_xlim(actual_extent[0], actual_extent[1])
+    ax.set_ylim(actual_extent[2], actual_extent[3])
+
     # plot the scale label
     if scale_label:
-        x = actual_extent[0]
-        y = actual_extent[2]
         label_fraction = get_label_fraction(boxsize)
         scale_label = f"{label_fraction*boxsize:.0f}"
         if not hasattr(boxsize, "units"):
