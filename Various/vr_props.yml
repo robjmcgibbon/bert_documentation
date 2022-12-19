@@ -1,0 +1,738 @@
+Aperture_Luminosities_index_0_aperture_total_star_100_kpc:
+  column: 0
+  target: ExclusiveSphere/100kpc/StellarLuminosity
+Aperture_Luminosities_index_0_aperture_total_star_10_kpc:
+  column: 0
+  target: ExclusiveSphere/10kpc/StellarLuminosity
+Aperture_Luminosities_index_0_aperture_total_star_30_kpc:
+  column: 0
+  target: ExclusiveSphere/30kpc/StellarLuminosity
+Aperture_Luminosities_index_0_aperture_total_star_50_kpc:
+  column: 0
+  target: ExclusiveSphere/50kpc/StellarLuminosity
+Aperture_Luminosities_index_1_aperture_total_star_100_kpc:
+  column: 1
+  target: ExclusiveSphere/100kpc/StellarLuminosity
+Aperture_Luminosities_index_1_aperture_total_star_10_kpc:
+  column: 1
+  target: ExclusiveSphere/10kpc/StellarLuminosity
+Aperture_Luminosities_index_1_aperture_total_star_30_kpc:
+  column: 1
+  target: ExclusiveSphere/30kpc/StellarLuminosity
+Aperture_Luminosities_index_1_aperture_total_star_50_kpc:
+  column: 1
+  target: ExclusiveSphere/50kpc/StellarLuminosity
+Aperture_Luminosities_index_2_aperture_total_star_100_kpc:
+  column: 2
+  target: ExclusiveSphere/100kpc/StellarLuminosity
+Aperture_Luminosities_index_2_aperture_total_star_10_kpc:
+  column: 2
+  target: ExclusiveSphere/10kpc/StellarLuminosity
+Aperture_Luminosities_index_2_aperture_total_star_30_kpc:
+  column: 2
+  target: ExclusiveSphere/30kpc/StellarLuminosity
+Aperture_Luminosities_index_2_aperture_total_star_50_kpc:
+  column: 2
+  target: ExclusiveSphere/50kpc/StellarLuminosity
+Aperture_Luminosities_index_3_aperture_total_star_100_kpc:
+  column: 3
+  target: ExclusiveSphere/100kpc/StellarLuminosity
+Aperture_Luminosities_index_3_aperture_total_star_10_kpc:
+  column: 3
+  target: ExclusiveSphere/10kpc/StellarLuminosity
+Aperture_Luminosities_index_3_aperture_total_star_30_kpc:
+  column: 3
+  target: ExclusiveSphere/30kpc/StellarLuminosity
+Aperture_Luminosities_index_3_aperture_total_star_50_kpc:
+  column: 3
+  target: ExclusiveSphere/50kpc/StellarLuminosity
+Aperture_Luminosities_index_4_aperture_total_star_100_kpc:
+  column: 4
+  target: ExclusiveSphere/100kpc/StellarLuminosity
+Aperture_Luminosities_index_4_aperture_total_star_10_kpc:
+  column: 4
+  target: ExclusiveSphere/10kpc/StellarLuminosity
+Aperture_Luminosities_index_4_aperture_total_star_30_kpc:
+  column: 4
+  target: ExclusiveSphere/30kpc/StellarLuminosity
+Aperture_Luminosities_index_4_aperture_total_star_50_kpc:
+  column: 4
+  target: ExclusiveSphere/50kpc/StellarLuminosity
+Aperture_Luminosities_index_5_aperture_total_star_100_kpc:
+  column: 5
+  target: ExclusiveSphere/100kpc/StellarLuminosity
+Aperture_Luminosities_index_5_aperture_total_star_10_kpc:
+  column: 5
+  target: ExclusiveSphere/10kpc/StellarLuminosity
+Aperture_Luminosities_index_5_aperture_total_star_30_kpc:
+  column: 5
+  target: ExclusiveSphere/30kpc/StellarLuminosity
+Aperture_Luminosities_index_5_aperture_total_star_50_kpc:
+  column: 5
+  target: ExclusiveSphere/50kpc/StellarLuminosity
+Aperture_Luminosities_index_6_aperture_total_star_100_kpc:
+  column: 6
+  target: ExclusiveSphere/100kpc/StellarLuminosity
+Aperture_Luminosities_index_6_aperture_total_star_10_kpc:
+  column: 6
+  target: ExclusiveSphere/10kpc/StellarLuminosity
+Aperture_Luminosities_index_6_aperture_total_star_30_kpc:
+  column: 6
+  target: ExclusiveSphere/30kpc/StellarLuminosity
+Aperture_Luminosities_index_6_aperture_total_star_50_kpc:
+  column: 6
+  target: ExclusiveSphere/50kpc/StellarLuminosity
+Aperture_Luminosities_index_7_aperture_total_star_100_kpc:
+  column: 7
+  target: ExclusiveSphere/100kpc/StellarLuminosity
+Aperture_Luminosities_index_7_aperture_total_star_10_kpc:
+  column: 7
+  target: ExclusiveSphere/10kpc/StellarLuminosity
+Aperture_Luminosities_index_7_aperture_total_star_30_kpc:
+  column: 7
+  target: ExclusiveSphere/30kpc/StellarLuminosity
+Aperture_Luminosities_index_7_aperture_total_star_50_kpc:
+  column: 7
+  target: ExclusiveSphere/50kpc/StellarLuminosity
+Aperture_Luminosities_index_8_aperture_total_star_100_kpc:
+  column: 8
+  target: ExclusiveSphere/100kpc/StellarLuminosity
+Aperture_Luminosities_index_8_aperture_total_star_10_kpc:
+  column: 8
+  target: ExclusiveSphere/10kpc/StellarLuminosity
+Aperture_Luminosities_index_8_aperture_total_star_30_kpc:
+  column: 8
+  target: ExclusiveSphere/30kpc/StellarLuminosity
+Aperture_Luminosities_index_8_aperture_total_star_50_kpc:
+  column: 8
+  target: ExclusiveSphere/50kpc/StellarLuminosity
+Aperture_SFR_gas_100_kpc:
+  target: ExclusiveSphere/100kpc/StarFormationRate
+Aperture_SFR_gas_10_kpc:
+  target: ExclusiveSphere/10kpc/StarFormationRate
+Aperture_SFR_gas_30_kpc:
+  target: ExclusiveSphere/30kpc/StarFormationRate
+Aperture_SFR_gas_50_kpc:
+  target: ExclusiveSphere/50kpc/StarFormationRate
+Aperture_SubgridMasses_aperture_total_bh_100_kpc:
+  target: ExclusiveSphere/100kpc/BlackHolesSubgridMass
+Aperture_SubgridMasses_aperture_total_bh_10_kpc:
+  target: ExclusiveSphere/10kpc/BlackHolesSubgridMass
+Aperture_SubgridMasses_aperture_total_bh_30_kpc:
+  target: ExclusiveSphere/30kpc/BlackHolesSubgridMass
+Aperture_SubgridMasses_aperture_total_bh_50_kpc:
+  target: ExclusiveSphere/50kpc/BlackHolesSubgridMass
+Aperture_Zmet_gas_100_kpc:
+  target: ExclusiveSphere/100kpc/GasMassInMetals
+Aperture_Zmet_gas_10_kpc:
+  target: ExclusiveSphere/10kpc/GasMassInMetals
+Aperture_Zmet_gas_30_kpc:
+  target: ExclusiveSphere/30kpc/GasMassInMetals
+Aperture_Zmet_gas_50_kpc:
+  target: ExclusiveSphere/50kpc/GasMassInMetals
+Aperture_Zmet_gas_sf_100_kpc:
+  target: ExclusiveSphere/100kpc/StarFormingGasMassInMetals
+Aperture_Zmet_gas_sf_10_kpc:
+  target: ExclusiveSphere/10kpc/StarFormingGasMassInMetals
+Aperture_Zmet_gas_sf_30_kpc:
+  target: ExclusiveSphere/30kpc/StarFormingGasMassInMetals
+Aperture_Zmet_gas_sf_50_kpc:
+  target: ExclusiveSphere/50kpc/StarFormingGasMassInMetals
+Aperture_Zmet_star_100_kpc:
+  target: ExclusiveSphere/100kpc/StellarMassInMetals
+Aperture_Zmet_star_10_kpc:
+  target: ExclusiveSphere/10kpc/StellarMassInMetals
+Aperture_Zmet_star_30_kpc:
+  target: ExclusiveSphere/30kpc/StellarMassInMetals
+Aperture_Zmet_star_50_kpc:
+  target: ExclusiveSphere/50kpc/StellarMassInMetals
+Aperture_mass_100_kpc:
+  target: ExclusiveSphere/100kpc/TotalMass
+Aperture_mass_10_kpc:
+  target: ExclusiveSphere/10kpc/TotalMass
+Aperture_mass_30_kpc:
+  target: ExclusiveSphere/30kpc/TotalMass
+Aperture_mass_50_kpc:
+  target: ExclusiveSphere/50kpc/TotalMass
+Aperture_mass_bh_100_kpc:
+  target: ExclusiveSphere/100kpc/BlackHolesDynamicalMass
+Aperture_mass_bh_10_kpc:
+  target: ExclusiveSphere/10kpc/BlackHolesDynamicalMass
+Aperture_mass_bh_30_kpc:
+  target: ExclusiveSphere/30kpc/BlackHolesDynamicalMass
+Aperture_mass_bh_50_kpc:
+  target: ExclusiveSphere/50kpc/BlackHolesDynamicalMass
+Aperture_mass_gas_100_kpc:
+  target: ExclusiveSphere/100kpc/GasMass
+Aperture_mass_gas_10_kpc:
+  target: ExclusiveSphere/10kpc/GasMass
+Aperture_mass_gas_30_kpc:
+  target: ExclusiveSphere/30kpc/GasMass
+Aperture_mass_gas_50_kpc:
+  target: ExclusiveSphere/50kpc/GasMass
+Aperture_mass_gas_sf_100_kpc:
+  target: ExclusiveSphere/100kpc/StarFormingGasMass
+Aperture_mass_gas_sf_10_kpc:
+  target: ExclusiveSphere/10kpc/StarFormingGasMass
+Aperture_mass_gas_sf_30_kpc:
+  target: ExclusiveSphere/30kpc/StarFormingGasMass
+Aperture_mass_gas_sf_50_kpc:
+  target: ExclusiveSphere/50kpc/StarFormingGasMass
+Aperture_mass_highT_100_kpc:
+  target: ExclusiveSphere/100kpc/TotalMass
+Aperture_mass_highT_10_kpc:
+  target: ExclusiveSphere/10kpc/TotalMass
+Aperture_mass_highT_30_kpc:
+  target: ExclusiveSphere/30kpc/TotalMass
+Aperture_mass_highT_50_kpc:
+  target: ExclusiveSphere/50kpc/TotalMass
+Aperture_mass_star_100_kpc:
+  target: ExclusiveSphere/100kpc/StellarMass
+Aperture_mass_star_10_kpc:
+  target: ExclusiveSphere/10kpc/StellarMass
+Aperture_mass_star_30_kpc:
+  target: ExclusiveSphere/30kpc/StellarMass
+Aperture_mass_star_50_kpc:
+  target: ExclusiveSphere/50kpc/StellarMass
+Aperture_npart_bh_100_kpc:
+  target: ExclusiveSphere/100kpc/NumberOfBlackHoleParticles
+Aperture_npart_bh_10_kpc:
+  target: ExclusiveSphere/10kpc/NumberOfBlackHoleParticles
+Aperture_npart_bh_30_kpc:
+  target: ExclusiveSphere/30kpc/NumberOfBlackHoleParticles
+Aperture_npart_bh_50_kpc:
+  target: ExclusiveSphere/50kpc/NumberOfBlackHoleParticles
+Aperture_npart_gas_100_kpc:
+  target: ExclusiveSphere/100kpc/NumberOfGasParticles
+Aperture_npart_gas_10_kpc:
+  target: ExclusiveSphere/10kpc/NumberOfGasParticles
+Aperture_npart_gas_30_kpc:
+  target: ExclusiveSphere/30kpc/NumberOfGasParticles
+Aperture_npart_gas_50_kpc:
+  target: ExclusiveSphere/50kpc/NumberOfGasParticles
+Aperture_npart_star_100_kpc:
+  target: ExclusiveSphere/100kpc/NumberOfStarParticles
+Aperture_npart_star_10_kpc:
+  target: ExclusiveSphere/10kpc/NumberOfStarParticles
+Aperture_npart_star_30_kpc:
+  target: ExclusiveSphere/30kpc/NumberOfStarParticles
+Aperture_npart_star_50_kpc:
+  target: ExclusiveSphere/50kpc/NumberOfStarParticles
+Aperture_rhalfmass_gas_100_kpc:
+  target: ExclusiveSphere/100kpc/HalfMassRadiusGas
+Aperture_rhalfmass_gas_10_kpc:
+  target: ExclusiveSphere/10kpc/HalfMassRadiusGas
+Aperture_rhalfmass_gas_30_kpc:
+  target: ExclusiveSphere/30kpc/HalfMassRadiusGas
+Aperture_rhalfmass_gas_50_kpc:
+  target: ExclusiveSphere/50kpc/HalfMassRadiusGas
+Aperture_rhalfmass_star_100_kpc:
+  target: ExclusiveSphere/100kpc/HalfMassRadiusStars
+Aperture_rhalfmass_star_10_kpc:
+  target: ExclusiveSphere/10kpc/HalfMassRadiusStars
+Aperture_rhalfmass_star_30_kpc:
+  target: ExclusiveSphere/30kpc/HalfMassRadiusStars
+Aperture_rhalfmass_star_50_kpc:
+  target: ExclusiveSphere/50kpc/HalfMassRadiusStars
+Lx_200c_gas:
+  column: 0
+  target: SO/200_crit/AngularMomentumGas
+Lx_200c_star:
+  column: 0
+  target: SO/200_crit/AngularMomentumStars
+Lx_200m_gas:
+  column: 0
+  target: SO/200_mean/AngularMomentumGas
+Lx_200m_star:
+  column: 0
+  target: SO/200_mean/AngularMomentumStars
+Lx_BN98_gas:
+  column: 0
+  target: SO/BN98/AngularMomentumGas
+Lx_BN98_star:
+  column: 0
+  target: SO/BN98/AngularMomentumStars
+Lx_gas:
+  column: 0
+  target: BoundSubhaloProperties/AngularMomentumGas
+Lx_star:
+  column: 0
+  target: BoundSubhaloProperties/AngularMomentumStars
+Ly_200c_gas:
+  column: 1
+  target: SO/200_crit/AngularMomentumGas
+Ly_200c_star:
+  column: 1
+  target: SO/200_crit/AngularMomentumStars
+Ly_200m_gas:
+  column: 1
+  target: SO/200_mean/AngularMomentumGas
+Ly_200m_star:
+  column: 1
+  target: SO/200_mean/AngularMomentumStars
+Ly_BN98_gas:
+  column: 1
+  target: SO/BN98/AngularMomentumGas
+Ly_BN98_star:
+  column: 1
+  target: SO/BN98/AngularMomentumStars
+Ly_gas:
+  column: 1
+  target: BoundSubhaloProperties/AngularMomentumGas
+Ly_star:
+  column: 1
+  target: BoundSubhaloProperties/AngularMomentumStars
+Lz_200c_gas:
+  column: 2
+  target: SO/200_crit/AngularMomentumGas
+Lz_200c_star:
+  column: 2
+  target: SO/200_crit/AngularMomentumStars
+Lz_200m_gas:
+  column: 2
+  target: SO/200_mean/AngularMomentumGas
+Lz_200m_star:
+  column: 2
+  target: SO/200_mean/AngularMomentumStars
+Lz_BN98_gas:
+  column: 2
+  target: SO/BN98/AngularMomentumGas
+Lz_BN98_star:
+  column: 2
+  target: SO/BN98/AngularMomentumStars
+Lz_gas:
+  column: 2
+  target: BoundSubhaloProperties/AngularMomentumGas
+Lz_star:
+  column: 2
+  target: BoundSubhaloProperties/AngularMomentumStars
+Mass_200crit:
+  target: SO/200_crit/TotalMass
+Mass_200crit_gas:
+  target: SO/200_crit/GasMass
+Mass_200crit_star:
+  target: SO/200_crit/StellarMass
+Mass_200mean:
+  target: SO/200_mean/TotalMass
+Mass_200mean_gas:
+  target: SO/200_mean/GasMass
+Mass_200mean_star:
+  target: SO/200_mean/StellarMass
+Mass_BN98:
+  target: SO/BN98/TotalMass
+Mass_BN98_gas:
+  target: SO/BN98/GasMass
+Mass_BN98_star:
+  target: SO/BN98/StellarMass
+Mass_FOF:
+  target: FOFSubhaloProperties/TotalMass
+Mass_bh:
+  target: BoundSubhaloProperties/BlackHolesDynamicalMass
+Mass_gas:
+  target: BoundSubhaloProperties/GasMass
+Mass_star:
+  target: BoundSubhaloProperties/StellarMass
+Mass_tot:
+  target: BoundSubhaloProperties/TotalMass
+Projected_aperture_1_SFR_gas_100_kpc:
+  target: ProjectedAperture/100kpc/projx/StarFormationRate
+Projected_aperture_1_SFR_gas_10_kpc:
+  target: ProjectedAperture/10kpc/projx/StarFormationRate
+Projected_aperture_1_SFR_gas_30_kpc:
+  target: ProjectedAperture/30kpc/projx/StarFormationRate
+Projected_aperture_1_SFR_gas_50_kpc:
+  target: ProjectedAperture/50kpc/projx/StarFormationRate
+Projected_aperture_1_mass_100_kpc:
+  target: ProjectedAperture/100kpc/projx/TotalMass
+Projected_aperture_1_mass_10_kpc:
+  target: ProjectedAperture/10kpc/projx/TotalMass
+Projected_aperture_1_mass_30_kpc:
+  target: ProjectedAperture/30kpc/projx/TotalMass
+Projected_aperture_1_mass_50_kpc:
+  target: ProjectedAperture/50kpc/projx/TotalMass
+Projected_aperture_1_mass_gas_100_kpc:
+  target: ProjectedAperture/100kpc/projx/GasMass
+Projected_aperture_1_mass_gas_10_kpc:
+  target: ProjectedAperture/10kpc/projx/GasMass
+Projected_aperture_1_mass_gas_30_kpc:
+  target: ProjectedAperture/30kpc/projx/GasMass
+Projected_aperture_1_mass_gas_50_kpc:
+  target: ProjectedAperture/50kpc/projx/GasMass
+Projected_aperture_1_mass_star_100_kpc:
+  target: ProjectedAperture/100kpc/projx/StellarMass
+Projected_aperture_1_mass_star_10_kpc:
+  target: ProjectedAperture/10kpc/projx/StellarMass
+Projected_aperture_1_mass_star_30_kpc:
+  target: ProjectedAperture/30kpc/projx/StellarMass
+Projected_aperture_1_mass_star_50_kpc:
+  target: ProjectedAperture/50kpc/projx/StellarMass
+Projected_aperture_1_rhalfmass_gas_100_kpc:
+  target: ProjectedAperture/100kpc/projx/HalfMassRadiusGas
+Projected_aperture_1_rhalfmass_gas_10_kpc:
+  target: ProjectedAperture/10kpc/projx/HalfMassRadiusGas
+Projected_aperture_1_rhalfmass_gas_30_kpc:
+  target: ProjectedAperture/30kpc/projx/HalfMassRadiusGas
+Projected_aperture_1_rhalfmass_gas_50_kpc:
+  target: ProjectedAperture/50kpc/projx/HalfMassRadiusGas
+Projected_aperture_1_rhalfmass_star_100_kpc:
+  target: ProjectedAperture/100kpc/projx/HalfMassRadiusStars
+Projected_aperture_1_rhalfmass_star_10_kpc:
+  target: ProjectedAperture/10kpc/projx/HalfMassRadiusStars
+Projected_aperture_1_rhalfmass_star_30_kpc:
+  target: ProjectedAperture/30kpc/projx/HalfMassRadiusStars
+Projected_aperture_1_rhalfmass_star_50_kpc:
+  target: ProjectedAperture/50kpc/projx/HalfMassRadiusStars
+Projected_aperture_2_SFR_gas_100_kpc:
+  target: ProjectedAperture/100kpc/projy/StarFormationRate
+Projected_aperture_2_SFR_gas_10_kpc:
+  target: ProjectedAperture/10kpc/projy/StarFormationRate
+Projected_aperture_2_SFR_gas_30_kpc:
+  target: ProjectedAperture/30kpc/projy/StarFormationRate
+Projected_aperture_2_SFR_gas_50_kpc:
+  target: ProjectedAperture/50kpc/projy/StarFormationRate
+Projected_aperture_2_mass_100_kpc:
+  target: ProjectedAperture/100kpc/projy/TotalMass
+Projected_aperture_2_mass_10_kpc:
+  target: ProjectedAperture/10kpc/projy/TotalMass
+Projected_aperture_2_mass_30_kpc:
+  target: ProjectedAperture/30kpc/projy/TotalMass
+Projected_aperture_2_mass_50_kpc:
+  target: ProjectedAperture/50kpc/projy/TotalMass
+Projected_aperture_2_mass_gas_100_kpc:
+  target: ProjectedAperture/100kpc/projy/GasMass
+Projected_aperture_2_mass_gas_10_kpc:
+  target: ProjectedAperture/10kpc/projy/GasMass
+Projected_aperture_2_mass_gas_30_kpc:
+  target: ProjectedAperture/30kpc/projy/GasMass
+Projected_aperture_2_mass_gas_50_kpc:
+  target: ProjectedAperture/50kpc/projy/GasMass
+Projected_aperture_2_mass_star_100_kpc:
+  target: ProjectedAperture/100kpc/projy/StellarMass
+Projected_aperture_2_mass_star_10_kpc:
+  target: ProjectedAperture/10kpc/projy/StellarMass
+Projected_aperture_2_mass_star_30_kpc:
+  target: ProjectedAperture/30kpc/projy/StellarMass
+Projected_aperture_2_mass_star_50_kpc:
+  target: ProjectedAperture/50kpc/projy/StellarMass
+Projected_aperture_2_rhalfmass_gas_100_kpc:
+  target: ProjectedAperture/100kpc/projy/HalfMassRadiusGas
+Projected_aperture_2_rhalfmass_gas_10_kpc:
+  target: ProjectedAperture/10kpc/projy/HalfMassRadiusGas
+Projected_aperture_2_rhalfmass_gas_30_kpc:
+  target: ProjectedAperture/30kpc/projy/HalfMassRadiusGas
+Projected_aperture_2_rhalfmass_gas_50_kpc:
+  target: ProjectedAperture/50kpc/projy/HalfMassRadiusGas
+Projected_aperture_2_rhalfmass_star_100_kpc:
+  target: ProjectedAperture/100kpc/projy/HalfMassRadiusStars
+Projected_aperture_2_rhalfmass_star_10_kpc:
+  target: ProjectedAperture/10kpc/projy/HalfMassRadiusStars
+Projected_aperture_2_rhalfmass_star_30_kpc:
+  target: ProjectedAperture/30kpc/projy/HalfMassRadiusStars
+Projected_aperture_2_rhalfmass_star_50_kpc:
+  target: ProjectedAperture/50kpc/projy/HalfMassRadiusStars
+Projected_aperture_3_SFR_gas_100_kpc:
+  target: ProjectedAperture/100kpc/projz/StarFormationRate
+Projected_aperture_3_SFR_gas_10_kpc:
+  target: ProjectedAperture/10kpc/projz/StarFormationRate
+Projected_aperture_3_SFR_gas_30_kpc:
+  target: ProjectedAperture/30kpc/projz/StarFormationRate
+Projected_aperture_3_SFR_gas_50_kpc:
+  target: ProjectedAperture/50kpc/projz/StarFormationRate
+Projected_aperture_3_mass_100_kpc:
+  target: ProjectedAperture/100kpc/projz/TotalMass
+Projected_aperture_3_mass_10_kpc:
+  target: ProjectedAperture/10kpc/projz/TotalMass
+Projected_aperture_3_mass_30_kpc:
+  target: ProjectedAperture/30kpc/projz/TotalMass
+Projected_aperture_3_mass_50_kpc:
+  target: ProjectedAperture/50kpc/projz/TotalMass
+Projected_aperture_3_mass_gas_100_kpc:
+  target: ProjectedAperture/100kpc/projz/GasMass
+Projected_aperture_3_mass_gas_10_kpc:
+  target: ProjectedAperture/10kpc/projz/GasMass
+Projected_aperture_3_mass_gas_30_kpc:
+  target: ProjectedAperture/30kpc/projz/GasMass
+Projected_aperture_3_mass_gas_50_kpc:
+  target: ProjectedAperture/50kpc/projz/GasMass
+Projected_aperture_3_mass_star_100_kpc:
+  target: ProjectedAperture/100kpc/projz/StellarMass
+Projected_aperture_3_mass_star_10_kpc:
+  target: ProjectedAperture/10kpc/projz/StellarMass
+Projected_aperture_3_mass_star_30_kpc:
+  target: ProjectedAperture/30kpc/projz/StellarMass
+Projected_aperture_3_mass_star_50_kpc:
+  target: ProjectedAperture/50kpc/projz/StellarMass
+Projected_aperture_3_rhalfmass_gas_100_kpc:
+  target: ProjectedAperture/100kpc/projz/HalfMassRadiusGas
+Projected_aperture_3_rhalfmass_gas_10_kpc:
+  target: ProjectedAperture/10kpc/projz/HalfMassRadiusGas
+Projected_aperture_3_rhalfmass_gas_30_kpc:
+  target: ProjectedAperture/30kpc/projz/HalfMassRadiusGas
+Projected_aperture_3_rhalfmass_gas_50_kpc:
+  target: ProjectedAperture/50kpc/projz/HalfMassRadiusGas
+Projected_aperture_3_rhalfmass_star_100_kpc:
+  target: ProjectedAperture/100kpc/projz/HalfMassRadiusStars
+Projected_aperture_3_rhalfmass_star_10_kpc:
+  target: ProjectedAperture/10kpc/projz/HalfMassRadiusStars
+Projected_aperture_3_rhalfmass_star_30_kpc:
+  target: ProjectedAperture/30kpc/projz/HalfMassRadiusStars
+Projected_aperture_3_rhalfmass_star_50_kpc:
+  target: ProjectedAperture/50kpc/projz/HalfMassRadiusStars
+R_200crit:
+  target: SO/200_crit/SORadius
+R_200mean:
+  target: SO/200_mean/SORadius
+R_BN98:
+  target: SO/BN98/SORadius
+R_HalfMass:
+  target: BoundSubhaloProperties/HalfMassRadiusTotal
+R_HalfMass_gas:
+  target: BoundSubhaloProperties/HalfMassRadiusGas
+R_HalfMass_star:
+  target: BoundSubhaloProperties/HalfMassRadiusStars
+SFR_gas:
+  target: BoundSubhaloProperties/StarFormationRate
+SO_Lx_gas_1000_rhocrit:
+  column: 0
+  target: SO/1000_crit/AngularMomentumGas
+SO_Lx_gas_100_rhocrit:
+  column: 0
+  target: SO/100_crit/AngularMomentumGas
+SO_Lx_gas_200_rhocrit:
+  column: 0
+  target: SO/200_crit/AngularMomentumGas
+SO_Lx_gas_2500_rhocrit:
+  column: 0
+  target: SO/2500_crit/AngularMomentumGas
+SO_Lx_gas_500_rhocrit:
+  column: 0
+  target: SO/500_crit/AngularMomentumGas
+SO_Lx_star_1000_rhocrit:
+  column: 0
+  target: SO/1000_crit/AngularMomentumStars
+SO_Lx_star_100_rhocrit:
+  column: 0
+  target: SO/100_crit/AngularMomentumStars
+SO_Lx_star_200_rhocrit:
+  column: 0
+  target: SO/200_crit/AngularMomentumStars
+SO_Lx_star_2500_rhocrit:
+  column: 0
+  target: SO/2500_crit/AngularMomentumStars
+SO_Lx_star_500_rhocrit:
+  column: 0
+  target: SO/500_crit/AngularMomentumStars
+SO_Ly_gas_1000_rhocrit:
+  column: 1
+  target: SO/1000_crit/AngularMomentumGas
+SO_Ly_gas_100_rhocrit:
+  column: 1
+  target: SO/100_crit/AngularMomentumGas
+SO_Ly_gas_200_rhocrit:
+  column: 1
+  target: SO/200_crit/AngularMomentumGas
+SO_Ly_gas_2500_rhocrit:
+  column: 1
+  target: SO/2500_crit/AngularMomentumGas
+SO_Ly_gas_500_rhocrit:
+  column: 1
+  target: SO/500_crit/AngularMomentumGas
+SO_Ly_star_1000_rhocrit:
+  column: 1
+  target: SO/1000_crit/AngularMomentumStars
+SO_Ly_star_100_rhocrit:
+  column: 1
+  target: SO/100_crit/AngularMomentumStars
+SO_Ly_star_200_rhocrit:
+  column: 1
+  target: SO/200_crit/AngularMomentumStars
+SO_Ly_star_2500_rhocrit:
+  column: 1
+  target: SO/2500_crit/AngularMomentumStars
+SO_Ly_star_500_rhocrit:
+  column: 1
+  target: SO/500_crit/AngularMomentumStars
+SO_Lz_gas_1000_rhocrit:
+  column: 2
+  target: SO/1000_crit/AngularMomentumGas
+SO_Lz_gas_100_rhocrit:
+  column: 2
+  target: SO/100_crit/AngularMomentumGas
+SO_Lz_gas_200_rhocrit:
+  column: 2
+  target: SO/200_crit/AngularMomentumGas
+SO_Lz_gas_2500_rhocrit:
+  column: 2
+  target: SO/2500_crit/AngularMomentumGas
+SO_Lz_gas_500_rhocrit:
+  column: 2
+  target: SO/500_crit/AngularMomentumGas
+SO_Lz_star_1000_rhocrit:
+  column: 2
+  target: SO/1000_crit/AngularMomentumStars
+SO_Lz_star_100_rhocrit:
+  column: 2
+  target: SO/100_crit/AngularMomentumStars
+SO_Lz_star_200_rhocrit:
+  column: 2
+  target: SO/200_crit/AngularMomentumStars
+SO_Lz_star_2500_rhocrit:
+  column: 2
+  target: SO/2500_crit/AngularMomentumStars
+SO_Lz_star_500_rhocrit:
+  column: 2
+  target: SO/500_crit/AngularMomentumStars
+SO_Mass_1000_rhocrit:
+  target: SO/1000_crit/TotalMass
+SO_Mass_100_rhocrit:
+  target: SO/100_crit/TotalMass
+SO_Mass_200_rhocrit:
+  target: SO/200_crit/TotalMass
+SO_Mass_2500_rhocrit:
+  target: SO/2500_crit/TotalMass
+SO_Mass_500_rhocrit:
+  target: SO/500_crit/TotalMass
+SO_Mass_gas_1000_rhocrit:
+  target: SO/1000_crit/GasMass
+SO_Mass_gas_100_rhocrit:
+  target: SO/100_crit/GasMass
+SO_Mass_gas_200_rhocrit:
+  target: SO/200_crit/GasMass
+SO_Mass_gas_2500_rhocrit:
+  target: SO/2500_crit/GasMass
+SO_Mass_gas_500_rhocrit:
+  target: SO/500_crit/GasMass
+SO_Mass_star_1000_rhocrit:
+  target: SO/1000_crit/StellarMass
+SO_Mass_star_100_rhocrit:
+  target: SO/100_crit/StellarMass
+SO_Mass_star_200_rhocrit:
+  target: SO/200_crit/StellarMass
+SO_Mass_star_2500_rhocrit:
+  target: SO/2500_crit/StellarMass
+SO_Mass_star_500_rhocrit:
+  target: SO/500_crit/StellarMass
+SO_R_1000_rhocrit:
+  target: SO/1000_crit/SORadius
+SO_R_100_rhocrit:
+  target: SO/100_crit/SORadius
+SO_R_200_rhocrit:
+  target: SO/200_crit/SORadius
+SO_R_2500_rhocrit:
+  target: SO/2500_crit/SORadius
+SO_R_500_rhocrit:
+  target: SO/500_crit/SORadius
+Structuretype:
+  target: VR/StructureType
+SubgridMasses_max_bh:
+  target: BoundSubhaloProperties/MostMassiveBlackHoleMass
+T_gas:
+  target: BoundSubhaloProperties/GasTemperature
+T_gas_highT_incl:
+  target: BoundSubhaloProperties/GasTemperatureWithoutCoolGas
+VXc:
+  column: 0
+  target: BoundSubhaloProperties/CentreOfMassVelocity
+VYc:
+  column: 1
+  target: BoundSubhaloProperties/CentreOfMassVelocity
+VZc:
+  column: 2
+  target: BoundSubhaloProperties/CentreOfMassVelocity
+Vmax:
+  target: BoundSubhaloProperties/MaximumCircularVelocity
+Xc:
+  column: 0
+  target: BoundSubhaloProperties/CentreOfMass
+Xcmbp:
+  column: 0
+  target: VR/CentreOfPotential
+Xcminpot:
+  column: 0
+  target: VR/CentreOfPotential
+Yc:
+  column: 1
+  target: BoundSubhaloProperties/CentreOfMass
+Ycmbp:
+  column: 1
+  target: VR/CentreOfPotential
+Ycminpot:
+  column: 1
+  target: VR/CentreOfPotential
+Zc:
+  column: 2
+  target: BoundSubhaloProperties/CentreOfMass
+Zcmbp:
+  column: 2
+  target: VR/CentreOfPotential
+Zcminpot:
+  column: 2
+  target: VR/CentreOfPotential
+Zmet_gas:
+  target: BoundSubhaloProperties/GasMassInMetals
+Zmet_star:
+  target: BoundSubhaloProperties/StellarMassInMetals
+hostHaloID:
+  target: VR/HostHaloID
+n_bh:
+  target: BoundSubhaloProperties/NumberOfBlackHoleParticles
+n_gas:
+  target: BoundSubhaloProperties/NumberOfGasParticles
+n_star:
+  target: BoundSubhaloProperties/NumberOfStarParticles
+numSubStruct:
+  target: VR/NumberOfSubstructures
+veldisp_xx_gas:
+  column: 0
+  target: BoundSubhaloProperties/GasVelocityDispersionMatrix
+veldisp_xx_star:
+  column: 0
+  target: BoundSubhaloProperties/StellarVelocityDispersionMatrix
+veldisp_xy_gas:
+  column: 3
+  target: BoundSubhaloProperties/GasVelocityDispersionMatrix
+veldisp_xy_star:
+  column: 3
+  target: BoundSubhaloProperties/StellarVelocityDispersionMatrix
+veldisp_xz_gas:
+  column: 4
+  target: BoundSubhaloProperties/GasVelocityDispersionMatrix
+veldisp_xz_star:
+  column: 4
+  target: BoundSubhaloProperties/StellarVelocityDispersionMatrix
+veldisp_yx_gas:
+  column: 3
+  target: BoundSubhaloProperties/GasVelocityDispersionMatrix
+veldisp_yx_star:
+  column: 3
+  target: BoundSubhaloProperties/StellarVelocityDispersionMatrix
+veldisp_yy_gas:
+  column: 1
+  target: BoundSubhaloProperties/GasVelocityDispersionMatrix
+veldisp_yy_star:
+  column: 1
+  target: BoundSubhaloProperties/StellarVelocityDispersionMatrix
+veldisp_yz_gas:
+  column: 5
+  target: BoundSubhaloProperties/GasVelocityDispersionMatrix
+veldisp_yz_star:
+  column: 5
+  target: BoundSubhaloProperties/StellarVelocityDispersionMatrix
+veldisp_zx_gas:
+  column: 4
+  target: BoundSubhaloProperties/GasVelocityDispersionMatrix
+veldisp_zx_star:
+  column: 4
+  target: BoundSubhaloProperties/StellarVelocityDispersionMatrix
+veldisp_zy_gas:
+  column: 5
+  target: BoundSubhaloProperties/GasVelocityDispersionMatrix
+veldisp_zy_star:
+  column: 5
+  target: BoundSubhaloProperties/StellarVelocityDispersionMatrix
+veldisp_zz_gas:
+  column: 2
+  target: BoundSubhaloProperties/GasVelocityDispersionMatrix
+veldisp_zz_star:
+  column: 2
+  target: BoundSubhaloProperties/StellarVelocityDispersionMatrix
