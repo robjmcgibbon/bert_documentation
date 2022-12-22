@@ -1,0 +1,28 @@
+#!/bin/bash
+#SBATCH --ntasks 1
+#SBATCH --cpus-per-task=28
+#SBATCH -J @NAME@-VR
+#SBATCH -o jobVR.%J.out
+#SBATCH -e jobVR.%J.err
+#SBATCH -p cosma7
+#SBATCH -A dp203
+#SBATCH -t 06:00:00
+
+module purge
+module load python/3.9.1-C8
+
+python3 pre_process_snapshot.py colibre_@SNAP@.hdf5 UVB_dust1_CR1_G1_shield1_v1.hdf5
+
+module purge
+module load intel_comp/2021.1.0 compiler
+module load intel_mpi/2018
+module load fftw/3.3.9cosma7
+module load parallel_hdf5/1.10.6 parmetis/4.0.3-64bit gsl/2.5
+module load sundials/5.1.0_c7_single
+module load cmake
+
+./stf \
+  -C vrconfig_3dfof_subhalos_SO_hydro.cfg \
+  -i colibre_@SNAP@ \
+  -o halos_@SNAP@ \
+  -I 2

@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH --ntasks 1
+#SBATCH --cpus-per-task=28
+#SBATCH -J @NAME@
+#SBATCH -o job.%J.out
+#SBATCH -e job.%J.err
+#SBATCH -p cosma7
+#SBATCH -A dp203
+#SBATCH -t 24:00:00
+
+module purge
+
+module load intel_comp/2021.1.0 compiler
+module load intel_mpi/2018
+module load fftw/3.3.9cosma7
+module load parallel_hdf5/1.10.6 parmetis/4.0.3-64bit gsl/2.5
+module load sundials/5.1.0_c7_single
+
+./swift \
+    --cosmology --colibre --dust \
+    --threads=28 --pin \
+    @PARAMS@
+
