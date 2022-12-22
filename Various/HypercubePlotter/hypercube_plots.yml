@@ -1,0 +1,240 @@
+stellar_mass_halo_mass_MBN98_centrals_ratio_100:
+  x_range: [1e10, 1e13]
+  y_range: [1e-3, 0.1]
+  fitting_range: [6e10, 3e12]
+  x_log: True
+  y_log: True
+  title: Stellar Mass-Halo Mass relation
+  redshift_range: [0., 0.05]
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyStellarMassHaloMass/Behroozi2019Ratio.hdf5
+
+stellar_mass_projected_galaxy_size_50:
+  x_range: [1.e8, 1.e11]
+  y_range: [0.5, 20.]
+  fitting_range: [2.e8, 7.e10]
+  x_log: True
+  y_log: True
+  title: Stellar Mass-Size relation
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyStellarMassGalaxySize/Lange2015rBand.hdf5
+
+luminosity_K_function_50:
+  x_range: [-25., -13.]
+  y_range: [1.e-5, 0.3]
+  fitting_range: [-23., -14.]
+  x_log: False
+  y_log: True
+  title: K-band luminosity function
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyLuminosityFunction/Driver2012_K.hdf5
+
+stellar_mass_black_hole_mass_50:
+  x_range: [1.e8, 1.e11]
+  y_range: [1.e3, 1.e9]
+  fitting_range: [1.5e8, 1.e11]
+  x_log: True
+  y_log: True
+  title: Stellar Mass-Black Hole Mass relation
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyStellarMassBlackHoleMass/Sahu2019_ETG.hdf5
+    - pipeline-configs/observational_data/data/GalaxyStellarMassBlackHoleMass/Sahu2019_LTG.hdf5
+    - pipeline-configs/observational_data/data/GalaxyStellarMassBlackHoleMass/McConnell2013_Fit.hdf5
+
+h2_frac_func_stellar_mass:
+  x_range: [1.e8, 1.e11]
+  y_range: [1.e-3, 3.]
+  fitting_range: [3.e9, 5.e10]
+  boost_factor: 0.3
+  x_log: True
+  y_log: True
+  title: Stellar Mass-Molecular Gas Fraction relation
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyH2Fractions/Saintonge2017_abcissa_M_star.hdf5
+
+adaptive_stellar_mass_function_50:
+  x_range: [1.e7, 1.e13]
+  y_range: [1.e-5, 0.4]
+  fitting_range: [5.e7, 1.e11]
+  x_log: True
+  y_log: True
+  title: Stellar Mass Function
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyStellarMassFunction/Driver2021.hdf5
+
+adaptive_gas_HI_mass_function:
+  x_range: [1.e6, 1.e11]
+  y_range: [1.e-5, 0.4]
+  fitting_range: [5.e6, 1.e10]
+  x_log: True
+  y_log: True
+  title: Atomic Gas Mass Function
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyHIMassFunction/Jones2018.hdf5
+
+adaptive_gas_H2_mass_function:
+  x_range: [1.e6, 1.e11]
+  y_range: [1.e-5, 0.4]
+  fitting_range: [5.e6, 5.e9]
+  x_log: True
+  y_log: True
+  title: Molecular Gas Mass Function
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyH2MassFunction/Fletcher2020.hdf5
+
+adaptive_dust_mass_function:
+  x_range: [1.e4, 1.e10]
+  y_range: [1.e-5, 0.4]
+  fitting_range: [1.e4, 1.e8]
+  x_log: True
+  y_log: True
+  title: Dust Mass Function
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyDustMassFunction/Beeston2018_z000p000.hdf5
+
+column_density_distribution_function_chunk1_reduced_range_0009:
+  x_range: [1.e19, 1.e23]
+  y_range: [1.e-5, 1.]
+  fitting_range: [1.e19, 1.e23]
+  boost_factor: 0.01
+  x_log: True
+  y_log: True
+  title: Column Density Distribution Function (z=2.5)
+  redshift_range: [2.3, 2.7]
+  observations:
+    - pipeline-configs/observational_data/data/ColumnDensityDistributionFunction/Kim2013_z2.4_3.2.hdf5
+    - pipeline-configs/observational_data/data/ColumnDensityDistributionFunction/Noterdaeme2012.hdf5
+
+column_density_distribution_function_chunk1_reduced_range_0016:
+  x_range: [1.e19, 1.e23]
+  y_range: [1.e-5, 1.]
+  fitting_range: [1.e19, 2.e22]
+  boost_factor: 0.01
+  x_log: True
+  y_log: True
+  redshift_range: [0., 0.05]
+  title: Column Density Distribution Function (z=0.0)
+  observations:
+    - pipeline-configs/observational_data/data/ColumnDensityDistributionFunction/Zwaan2005.hdf5
+
+SFH:
+  x_range: [1.e-2, 20.]
+  y_range: [1.e-4, 1.]
+  fitting_range: [0.05, 15.]
+  x_log: True
+  y_log: True
+  title: Star Formation History
+  observations:
+    - observations_sfh.py
+
+stellar_mass_with_scatter_passive_fraction_50:
+  x_range: [1.e8, 1.e11]
+  y_range: [0., 1.]
+  fitting_range: [2.e8, 1.e10]
+  boost_factor: 1.0
+  x_log: True
+  y_log: False
+  title: Stellar Mass-Passive Fraction relation
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyStellarMassPassiveFraction/Behroozi2019.hdf5
+
+rhoHI:
+  x_range: [1.e-2, 20.]
+  y_range: [1.e6, 1.e9]
+  fitting_range: [0.1, 5.]
+  x_log: True
+  y_log: True
+  title: Atomic Gas Evolution
+  observations:
+    - observations_rhoHI.py
+
+rhoH2:
+  x_range: [1.e-2, 20.]
+  y_range: [1.e5, 1.e9]
+  fitting_range: [0.1, 10.]
+  x_log: True
+  y_log: True
+  title: Molecular Gas Evolution
+  observations:
+    - observations_rhoH2.py
+
+stellar_mass_gas_sf_metallicity_fromz_lom_50:
+  x_range: [1.e8, 1.e11]
+  y_range: [7., 10.]
+  fitting_range: [1.e8, 3.e10]
+  x_log: True
+  y_log: False
+  title: Stellar Mass-Gas Metallicity relation
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyStellarMassGasMetallicity/Tremonti2004_Data.hdf5
+    - pipeline-configs/observational_data/data/GalaxyStellarMassGasMetallicity/Zahid2014_Data.hdf5
+    - pipeline-configs/observational_data/data/GalaxyStellarMassGasMetallicity/Andrews2013_Data.hdf5
+    - pipeline-configs/observational_data/data/GalaxyStellarMassGasMetallicity/Fraser-McKelvie_2021.hdf5
+
+stellar_mass_star_metallicity_50:
+  x_range: [1.e8, 1.e11]
+  y_range: [1.e-2, 5.]
+  fitting_range: [1.e8, 1.e11]
+  x_log: True
+  y_log: True
+  title: Stellar Mass-Stellar Metallicity relation
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyStellarMassStellarMetallicity/Gallazzi2005_Data.hdf5
+    - pipeline-configs/observational_data/data/GalaxyStellarMassStellarMetallicity/Kirby2013_Data.hdf5
+    - pipeline-configs/observational_data/data/GalaxyStellarMassStellarMetallicity/Fraser-McKelvie_2021.hdf5
+
+stellar_mass_specific_sfr_active_50:
+  x_range: [1.e8, 1.e11]
+  y_range: [1.e-3, 3.]
+  fitting_range: [1.e8, 1.e11]
+  x_log: True
+  y_log: True
+  title: Stellar Mass-Specific Star Formation Rate relation (active only)
+  y_units: 1/Gyr
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyStellarMassSpecificStarFormationRate/Bauer2013_StarForming.hdf5
+    - pipeline-configs/observational_data/data/GalaxyStellarMassSpecificStarFormationRate/Chang2015.hdf5
+
+sigma_gas_SFR_spatial:
+  x_range: [1.e-1, 1.e4]
+  y_range: [1.e-6, 1.e1]
+  fitting_range: [1.e-1, 1.e3]
+  boost_factor: 0.1
+  x_log: True
+  y_log: True
+  title: Neutral Surface Density-Star Formation Rate Density relation (spatially resolved)
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyNeutralGasSurfaceDensityStarFormationRateSurfaceDensity/Schruba2011.hdf5
+
+sigma_H2_SFR_spatial:
+  x_range: [1.e-1, 1.e4]
+  y_range: [1.e-6, 1.e1]
+  fitting_range: [1.e-1, 1.e3]
+  boost_factor: 0.1
+  x_log: True
+  y_log: True
+  title: H2 Surface Density-Star Formation Rate Density relation (spatially resolved)
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyMolecularGasSurfaceDensityStarFormationRateSurfaceDensity/Schruba2011.hdf5
+
+sigma_gas_SFR_azimuthal:
+  x_range: [1.e-1, 1.e4]
+  y_range: [1.e-6, 1.e1]
+  fitting_range: [1.e-1, 1.e3]
+  boost_factor: 0.1
+  x_log: True
+  y_log: True
+  title: Neutral Surface Density-Star Formation Rate Density relation (azimuthally averaged)
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyNeutralGasSurfaceDensityStarFormationRateSurfaceDensity/Schruba2011.hdf5
+
+sigma_H2_SFR_azimuthal:
+  x_range: [1.e-1, 1.e4]
+  y_range: [1.e-6, 1.e1]
+  fitting_range: [1.e-1, 1.e3]
+  boost_factor: 0.1
+  x_log: True
+  y_log: True
+  title: H2 Surface Density-Star Formation Rate Density relation (azimuthally averaged)
+  observations:
+    - pipeline-configs/observational_data/data/GalaxyMolecularGasSurfaceDensityStarFormationRateSurfaceDensity/Schruba2011.hdf5
