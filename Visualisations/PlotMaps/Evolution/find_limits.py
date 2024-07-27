@@ -1,3 +1,4 @@
+import os
 import numpy as np
 import multiprocessing as mp
 import glob
@@ -18,7 +19,7 @@ def process_file(filename):
 
 if __name__ == "__main__":
 
-  mp.set_start_method("forkserver")
+  # mp.set_start_method("forkserver")
 
   argparser = argparse.ArgumentParser()
   argparser.add_argument("folder")
@@ -26,10 +27,15 @@ if __name__ == "__main__":
   argparser.add_argument("--nproc", "-j", type=int, default=1)
   args = argparser.parse_args()
 
-  files = sorted(glob.glob(f"{args.folder}/*.npz"))
+  files = []
+  for dirname in os.listdir(args.folder):
+      if 'snapshot_' in dirname:
+          files += glob.glob(f'{args.folder}/{dirname}/*.npz')
+
   pool = mp.Pool(args.nproc)
   data = {}
   for file, name, dmin, dmax in pool.imap_unordered(process_file, files):
+    print(file)
     data[file] = {"quantity": name, "min": f"{dmin:.9e}", "max": f"{dmax:.9e}"}
     print(file, data[file])
 

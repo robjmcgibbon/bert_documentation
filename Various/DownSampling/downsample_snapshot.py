@@ -182,6 +182,7 @@ def downsample_file(args):
     Downsample a single snapshot file
 
     This function takes a tuple of 4 arguments:
+    # TODO: Save this information in the hdf5 downsampled file
     1. seed: The seed for the random number generator.
              To guarantee unbiased sampling, this should be
              different for each file.

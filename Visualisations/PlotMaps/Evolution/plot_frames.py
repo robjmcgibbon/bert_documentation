@@ -1,3 +1,4 @@
+import astropy.cosmology
 import numpy as np
 import multiprocessing as mp
 import matplotlib
@@ -16,8 +17,10 @@ gas_temperature_map = LinearSegmentedCmap2D(
 )
 dm_map = pl.get_cmap("cividis")
 xray_map = pl.get_cmap("magma")
-star_map = pl.get_cmap("pink")
+# star_map = pl.get_cmap("pink")
+star_map = pl.get_cmap("gist_gray")
 
+square = True
 
 def read_map(filename, mapname, selection=None):
     data = np.load(filename)[mapname]
@@ -48,6 +51,10 @@ def get_quantity(z, quantity, limits, selection=None):
             elif zdiff > 0.0 and zdiff < zmax:
                 zmax = zdiff
                 filemax = file
+
+    # TODO: Needed if a snapshot exists for DM but not for stars
+    if filemin is None:
+        return read_map(filemax, limits[filemax]["quantity"], selection)
 
     if filemax is None:
         return read_map(filemin, limits[filemin]["quantity"], selection)
@@ -103,19 +110,59 @@ def make_frames(args):
         dmin = quantities[q]["min"]
         dmax = quantities[q]["max"]
         mapdata = get_quantity(z, q, limits, selection)
+        if not square:
+            i_cut = mapdata.shape[0] * 7 // 32
+            mapdata = mapdata[:, i_cut:-i_cut]
         mapdata[mapdata <= dmin] = dmin
+
+        if quantity == 'star':
+            mapdata[mapdata > dmin] = dmax
+
         mapdata = matplotlib.colors.LogNorm(vmin=dmin, vmax=dmax)(mapdata)
         maps.append(mapdata)
     mapdata = combine_maps(quantity, maps, quantities)
     for map in maps:
         del map
 
-    fig, ax = pl.subplots(figsize=(6, 6))
+    if square:
+        fig, ax = pl.subplots(figsize=(6, 6))
+    else:
+        fig, ax = pl.subplots(figsize=(16, 9))
 
     ax.imshow(mapdata, origin="lower")
+
+    cosmo = astropy.cosmology.FlatLambdaCDM(H0=68.1, Om0=0.306)
+    age = cosmo.age(z).value
+    time_label = f'Universe Age: {age:.2f} Gyr'
+    # TODO: Text location for square images
+    if square:
+        ax.text(0.02, 0.05, time_label, color="w", transform = ax.transAxes)
+        ax.text(0.7, 0.06, "FLAMINGO", color="w", transform = ax.transAxes)
+        ax.text(0.7, 0.03, "Virgo Consortium", color="w", transform = ax.transAxes)
+    else:
+        ax.text(0.02, 0.05, time_label, color="w",
+                transform = ax.transAxes, fontsize='x-large')
+        ax.text(0.85, 0.08, "FLAMINGO", color="w",
+                transform = ax.transAxes, fontsize='large')
+        ax.text(0.85, 0.04, "Virgo Consortium", color="w",
+                transform = ax.transAxes, fontsize='large')
     ax.axis("off")
+
     pl.tight_layout(pad=0)
-    pl.savefig(output, dpi=300)
+
+    logo = pl.imread("flamingo_logo.png")
+    # TODO: Flamingo logo location for square images
+    if square:
+        ax1 = fig.add_axes([0.90,0.02,0.1,0.1])
+    else:
+        ax1 = fig.add_axes([0.92,0.02,0.08,0.1])
+    ax1.imshow(logo)
+    ax1.axis('off')
+
+    if square:
+        pl.savefig(output, dpi=300)
+    else:
+        pl.savefig(output, dpi=240)
     fig.clear()
     pl.close(fig)
 
